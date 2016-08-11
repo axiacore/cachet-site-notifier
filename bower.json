@@ -1,0 +1,23 @@
+{
+  "name": "cachet-site-notifier",
+  "description": "A widget to be notified of status from a cachet website",
+  "main": "cachet-site-notifier.js",
+  "keywords": [
+    "cachet"
+  ],
+  "authors": [
+    "info@axiacore.com"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Axiacore/cachet-site-notifier.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
