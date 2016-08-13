@@ -12,7 +12,7 @@ function loadCachet(cachetUrl) {
     if (xmlhttp.readyState == XMLHttpRequest.DONE) {
       if (xmlhttp.status == 200) {
         var incident = JSON.parse(xmlhttp.responseText).data[0];
-        if (incident !== null){
+        if (incident !== undefined){
           if (incident.status !== 4  && incident.status !== 0) {
             createAlert(incident);
           } else {
@@ -31,8 +31,6 @@ function loadCachet(cachetUrl) {
             xmlhttp2.open('GET', cachetUrl + '/api/v1/incidents/?sort=id&order=desc&per_page=1&status=0', true);
             xmlhttp2.send();
           }
-        } else {
-          console.log('cachet-site-notifier: No incidents reported');
         }
       }
     }
