@@ -21,8 +21,10 @@ function loadCachet(cachetUrl) {
               if (xmlhttp2.readyState == XMLHttpRequest.DONE) {
                 if (xmlhttp2.status == 200) {
                   var scheduledIncident = JSON.parse(xmlhttp2.responseText).data[0];
-                  if (new Date(scheduledIncident.scheduled_at) > new Date()) {
-                    createAlert(scheduledIncident);
+                  if (scheduledIncident !== undefined){
+                    if (new Date(scheduledIncident.scheduled_at) > new Date()) {
+                      createAlert(scheduledIncident);
+                    }
                   }
                 }
               }
