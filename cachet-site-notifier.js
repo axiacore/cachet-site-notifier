@@ -1,4 +1,4 @@
-function newLoadCachet(cachetUrl, callback) {
+function loadCachet(cachetUrl, callback) {
   var createAlert = function(incident) {
     var divElement = document.createElement('div');
     divElement.id = 'cachet-alert';
