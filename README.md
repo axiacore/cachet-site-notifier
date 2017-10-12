@@ -1,14 +1,17 @@
-# cachet-site-notifier
+# Cachet Site Notifier
+
 A widget to be notified of status from a cachet website
 
 
-## Installing using bower
+## Installing using yarn
+
 ```bash
-bower install cachet-site-notifier --save
+yarn add cachet-site-notifier
 ```
 
 
 ## Usage
+
 Just add the `cachet-site-notifier.js` file to your html and
 in any script add:
 
@@ -18,5 +21,4 @@ document.addEventListener('DOMContentLoaded', function() {
 }, false);
 ```
 
-Brought to you by the fine folks [@axiacore](https://twitter.com/axiacore)
-
+Brought to you by the fine folks at [Axiacore](https://axiacore.com/)

@@ -1,0 +1,16 @@
+{
+  "name": "cachet-site-notifier",
+  "version": "1.0.0",
+  "description": "A widget to be notified of status from a cachet website",
+  "main": "cachet-site-notifier.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axiacore/cachet-site-notifier.git"
+  },
+  "author": "Axiacore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Axiacore/cachet-site-notifier/issues"
+  },
+  "homepage": "https://github.com/Axiacore/cachet-site-notifier#readme"
+}
